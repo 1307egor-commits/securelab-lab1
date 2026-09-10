@@ -4,14 +4,6 @@
 інформаційній безпеці», ЛР 1. Трирівневий моноліт: браузерний клієнт
 (Vanilla JS) → ASP.NET Core Web API → EF Core → PostgreSQL.
 
-## Передумови
-
-- .NET SDK 10 (див. `global.json`).
-- PostgreSQL на `127.0.0.1:54329`, БД і користувач `securelab`, пароль
-  `local-study-password` (відкриті навчальні credentials лише для локального
-  стенда на 127.0.0.1). Піднімається через `infra/compose.yaml`.
-- Вільні локальні порти `5080` (API) і `54329` (PostgreSQL).
-
 ## Запуск
 
 ```bash
